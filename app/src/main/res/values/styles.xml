@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue500</item>
+        <item name="colorPrimaryDark">@color/blue700</item>
+        <item name="colorAccent">@color/greenA700</item>
+        <item name="alertDialogTheme">@style/Theme.AppTheme.Dialog.Alert</item>
+    </style>
+
+    <style name="Theme.AppTheme.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/blue500</item>
+        <item name="colorAccent">@color/greenA700</item>
+    </style>
+
+    <style name="Widget" />
+
+    <style name="Widget.AppTheme" />
+
+    <style name="Widget.AppTheme.EventEditView">
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+    </style>
+
+    <style name="Widget.AppTheme.EventEditView.TextView">
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Widget.AppTheme.EventEditView.TextView.Selectable">
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Widget.AppTheme.EventEditView.TextView.Selectable.End">
+        <item name="android:gravity">center_vertical|end</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.Hint" parent="TextAppearance.Design.Hint" />
+
+    <style name="TextAppearance.AppTheme.Hint.Disabled">
+        <item name="android:textColor">?android:attr/textColorHint</item>
+    </style>
+
+    <style name="Widget.AppTheme.TextView" />
+
+    <style name="Widget.AppTheme.TextView.Weather">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">@dimen/padding_text</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:paddingTop">@dimen/padding_text</item>
+        <item name="android:paddingBottom">@dimen/padding_text</item>
+    </style>
+
+    <style name="CardView.SS">
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="Widget.AppTheme.Drawer">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

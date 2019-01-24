@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('ksoap2-j2se-full-2.1.2.jar'))

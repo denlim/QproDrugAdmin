@@ -1,0 +1,35 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <item android:state_pressed="true">
+        <solid
+            android:color="@color/colorWhite" >
+        </solid>
+
+        <corners
+            android:bottomLeftRadius="20dp"
+            android:bottomRightRadius="20dp"
+            android:topLeftRadius="20dp"
+            android:topRightRadius="20dp" />
+
+        <stroke
+            android:width="1dp"
+            android:color="@color/colorAquaDark" />
+
+    </item>
+
+
+    <solid
+        android:color="@color/colorAquaDark" >
+    </solid>
+
+    <corners
+        android:bottomLeftRadius="20dp"
+        android:bottomRightRadius="20dp"
+        android:topLeftRadius="20dp"
+        android:topRightRadius="20dp" />
+
+    <stroke
+        android:width="1dp"
+        android:color="@color/colorWhite" />
+
+</shape>

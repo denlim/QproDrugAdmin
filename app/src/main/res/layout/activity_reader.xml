@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edmt.dev.androidcamera2api.ReaderActivity"
+    android:background="@drawable/android">
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:layout_margin="50dp"
+        android:background="@drawable/btn_scan">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:text="QRCode Scanner"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp"
+        android:background="@color/ColorTransparent"
+        android:text="Next Scan" />
+
+    <TextView
+        android:id="@+id/toast1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/toast2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignStart="@+id/toast1"
+        android:layout_marginBottom="59dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/scanbtn1"
+        android:layout_width="132dp"
+        android:layout_height="112dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorWhite"
+        android:src="@drawable/qrcode1" />
+
+</RelativeLayout>
